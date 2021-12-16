@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandelbrot to Julia | MVT fractals</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index.1673c2a5.js"></script>
+    <link rel="stylesheet" href="/assets/index.1b2dfbdd.css">
+</head>
+<body>
+    <nav>
+        <ol>
+            <li><a href="index.html">M</a></li>
+            <li><a href="julia.html">J</a></li>
+            <li><a class="nav-active" href="#">M > J</a></li>
+        </ol>
+    </nav>
+    <div id="fractals">
+        <section id="text-info">
+            <h1>Mandelbrot to Julia</h1>
+            <p>Mandelbrot set is really useful! The Julia set with parameters from Mandelbrot Set looks pretty cool. <strong>Just try it!</strong></p>
+        </section>
+        <section id="mandelbrot-container" class="fractal-container">
+            <article class="fractal-container-description">
+                <h1>Mandelbrot Set</h1>
+                <p>\[f_c(z) = z^2 + c\]</p>
+            </article>
+            <article>
+                <canvas id='mandelbrot-canvas' width='400' height='400'></canvas>
+            </article>
+        </section>
+        <section id="julia-container" class="fractal-container">
+            <article class="fractal-container-description">
+                <h1>Julia Set</h1>
+            </article>
+            <article>
+                <canvas id='julia-canvas' width='400' height='400'></canvas>
+            </article>
+        </section>
+    </div>
+    <aside id="aside-slider">
+    </aside>
+</body>
+</html>
