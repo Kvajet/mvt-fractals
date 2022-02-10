@@ -4,14 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julia | MVT fractals</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="./assets/julia.c9b416c8.js"></script>
-  <link rel="modulepreload" href="./assets/helpers.46c29822.js">
-  <link rel="stylesheet" href="./assets/helpers.108541bb.css">
+  <script type="module" crossorigin src="./assets/julia.bf512864.js"></script>
+  <link rel="modulepreload" href="./assets/helpers.c3668d07.js">
+  <link rel="stylesheet" href="./assets/helpers.3933f755.css">
 </head>
 <body>
     <nav>
@@ -19,14 +15,16 @@
             <li><a href="index.html">M</a></li>
             <li><a class="nav-active" href="#">J</a></li>
             <li><a href="mandelbrottojulia.html">M > J</a></li>
+            <li><a href="sierpinski.html">S</a></li>
         </ol>
     </nav>
     <div id="fractals">
         <section id="text-info">
             <h1>Julia</h1>
+            <p>Julia set gets one parameter which defines its shape and divergence. This parameter can be change via real part and imaginary part sliders. You can read more about Julia set on <a href="https://en.wikipedia.org/wiki/Julia_set">Wikipedia</a>!</p>
         </section>
         <section id="mandelbrot-container" class="fractal-container">
-                <canvas id='julia-canvas' width='400' height='400'></canvas>
+                <canvas id='julia-canvas' width='600' height='600'></canvas>
         </section>
     </div>
     <aside id="aside-slider">
